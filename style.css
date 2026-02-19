@@ -100,28 +100,6 @@ body{
     display: block;
 }
 
-.imageholder{
-    margin: 20px auto;
-    width: 40%;
-    position: absolute;
-    left: 750px;
-    top: 150px;
-    display: flex;
-    overflow-x: auto;
-    
-}
-.imageholder::-webkit-scrollbar{
-    display: none;
-    
-}
-.group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    animation: spin 5s infinite linear;
-    padding-right: 1em;
-}
 
 .card{
     flex: 0 0 5em;
@@ -141,10 +119,6 @@ body{
 .img2{background-image: url('header.jpeg');}
 .img3{background-image: url('hero.jpg');}
 
-@keyframes spin{
-    from {translate: 0;}
-    to {translate: -100%;}
-}
 
 .des{
     width: 700px;
