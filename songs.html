@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeatsStore</title>
     <link rel="stylesheet" href="style2.css">
+
 </head>
 <body>
     <div class="nav"> 
@@ -58,9 +59,12 @@
     <div class="songs">
 
         <div class="song1">
-           <p>Song Name</p>
-           <button>MP3 Download</button>
-           <button>Play</button>
+           <p>Kanjedza-Into</p>
+           <button onclick="downloadSong()">MP3 Download</button>
+            <audio id="myAudioPlayer" controls>
+        <source src="https://github.com/AUTRACHRIS-TAO/AutraBeats/raw/refs/heads/main/Kanjedza(Intro).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
         </div>
 
         <div class="song1">
@@ -105,7 +109,6 @@
            <button>Play</button>
         </div>
     </div>
-
-  
+<script src="script.js"></script>
 </body>
 </html>
