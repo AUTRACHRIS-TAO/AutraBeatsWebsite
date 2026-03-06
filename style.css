@@ -21,6 +21,7 @@ body{
 }
 
 .nav{
+    background-color: black;
     width: 1350px;
     height: 100px;
     display: flex;
@@ -114,11 +115,6 @@ body{
     background-repeat: no-repeat;
     display: inline-block;
 }
-
-.img1{background-image: url('free.png');}
-.img2{background-image: url('header.jpeg');}
-.img3{background-image: url('hero.jpg');}
-
 
 .des{
     width: 700px;
